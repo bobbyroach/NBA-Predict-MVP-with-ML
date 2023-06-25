@@ -13,6 +13,10 @@ The second part of this project deals with cleaning the data for machine learnin
 
 ### Step 3: 
 
+In this step, the machine learning library, Scikit-Learn, is used to predict the MVP 'shares' every player will win in each season based on their regular season statistics. After trying a few different machine learning algorithms, I found that the support vector regression model was the most accurate. Here are the steps taken to predict the MVP of a certain season: 
+
+1) A
+
 
  
 ![Screenshot (48)](https://github.com/bobbyroach/NBA-Predict-MVP-with-ML/assets/110302904/fa253f8a-fb05-404c-ab12-c2bcfe459ec8)
