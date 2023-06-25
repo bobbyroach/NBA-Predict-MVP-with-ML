@@ -27,5 +27,16 @@ In this step, the machine learning library, Scikit-Learn, is used to predict the
 
           - WC: Level of impact (LOI) * Quality of impact (QOI)
 
+4) Then, I created an instance of the support vector regression model and fit it to the predictors and the value I was trying to calculate, MVP shares
+5) Taking in the regression model, the stats data frame, the amount of years I was calculating from, and the list of predictors, I created a function that calculates the number of shares every player will earn in every year in the total amount of years. The basic structure of the function is as follows:
+
+          - For loop that runs through every year in the years passed in
+
+          - For every iteration, we train on the years of data less than the current year, and test and predict on the current year's data
+
+          - We create a list of predictions using the model's predict method on the test data and turn that list into pandas data frame and concat that with a data frame of the players and their share value
+
+          - Then, we add columns such as a player's rank and predicted rank and concatenate every year's prediction data frame together to end up with our final data frame
+
  
 ![Screenshot (48)](https://github.com/bobbyroach/NBA-Predict-MVP-with-ML/assets/110302904/fa253f8a-fb05-404c-ab12-c2bcfe459ec8)
