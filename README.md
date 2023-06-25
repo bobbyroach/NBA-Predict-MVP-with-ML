@@ -13,10 +13,12 @@ The second part of this project deals with cleaning the data for machine learnin
 
 ### Step 3: 
 
-In this step, the machine learning library, Scikit-Learn, is used to predict the MVP 'shares' every player will win in each season based on their regular season statistics. After trying a few different machine learning algorithms, I found that the support vector regression model was the most accurate. Here are the steps taken to predict the MVP of a certain season: 
+In this step, the machine learning library, Scikit-Learn, is used to predict the MVP 'shares' every player will win in each season based on their regular season statistics. After trying a few different machine learning algorithms, I found that the support vector regression model was the most accurate. Here are the steps I took to calculate and predict the MVPs of each season:
 
-1) A
-
+1) First, I made sure there are no null or extraneous values in the data frame
+2) Created a list of predictors. These predictors are the stats the machine learning algorithm will train on and make predictions based on, and they should all be names of columns in the main data frame with all the statistics
+3) Using existing stats in the data frame, I created new stats, such as net rating, quality of impact, level of impact, and win contribution, which I then added to the list of predictors. Here is how I calculated those stats: 
+- A
 
  
 ![Screenshot (48)](https://github.com/bobbyroach/NBA-Predict-MVP-with-ML/assets/110302904/fa253f8a-fb05-404c-ab12-c2bcfe459ec8)
