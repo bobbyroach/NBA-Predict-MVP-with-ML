@@ -45,4 +45,8 @@ Here is a screenshot of the output when listing the actual MVPs for the last 21 
 
 As you can see, it lists every player that recieved a rank of 1, meaning they had the most actual MVP shares that season, the year they won it in, their predicted rank, and the difference between their actual rank and the rank the algorithm predicted for them. 
 
-Overall, this algorithm was able to predict the past 16/21 MVP correctly, 
+## Conclusion
+
+Overall, this algorithm was able to predict the past 15/21 MVPs correctly. Unfortunately, since the MVP voting isn't run by a machine learning algorithm, and is determined by voters, each year's MVP is not going to be selected based on the same statistics that the last was. On some of the years the algorithm was wrong, you could always make the argument that that player should have won, based on their stats for that year and the stats that past MVP players had. 
+
+For example, in 200
