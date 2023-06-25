@@ -49,4 +49,12 @@ As you can see, it lists every player that recieved a rank of 1, meaning they ha
 
 Overall, this algorithm was able to predict the past 15/21 MVPs correctly. Unfortunately, since the MVP voting isn't run by a machine learning algorithm, and is determined by voters, each year's MVP is not going to be selected based on the same statistics that the last was. On some of the years the algorithm was wrong, you could always make the argument that that player should have won, based on their stats for that year and the stats that past MVP players had. 
 
-For example, in 200
+For example, in 2017 and 2019, the algorithm predicted James Harden to win the MVP. In both of those years, the MVP race was extremely close. Based on statistical data alone, and how much each statistic historically correlates with who generally wins the MVP, James Harden should have won. However, there is more to look at than just raw statistics, something that human voters can realize and a machine learning algorithm cannot. 
+
+          - In 2017, Russell Westbrook won MVP because he had become the second player to ever average a triple double for the entirety of the regular season, the first being Oscar Robertson in 1962.
+          - In 2019, James Harden put up historical numbers, averaging over 35 ppg. However, Giannis Antetekoumpo led his team to first in the conference, something the Bucks hadn't done in decades. Because of this, the voters of that year valued his leadership and his team's success over Harden's incredible offensive statistics
+          - Also, in 2011, the algorithm picks LeBron James to win MVP, when Derick Rose actually won it. This inaccuracy can be explained by the phenomenon called "voter's fatigue." LeBron has already won the MVP award the prior two years, and voters had become tired of him winning the MVP, making them more likely to select a new face even when LeBron's statistics justify his selection.
+
+### Note: 
+
+Some of this project is based on a tutorial, however there are many added features and the implementation of the machine learning is not only different, but more accurate.
