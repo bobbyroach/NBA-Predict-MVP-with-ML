@@ -38,5 +38,11 @@ In this step, the machine learning library, Scikit-Learn, is used to predict the
 
           - Then, we add columns such as a player's rank and predicted rank and concatenate every year's prediction data frame together to end up with our final data frame
 
+
+Here is a screenshot of the output when listing the actual MVPs for the last 21 years:
  
 ![Screenshot (48)](https://github.com/bobbyroach/NBA-Predict-MVP-with-ML/assets/110302904/fa253f8a-fb05-404c-ab12-c2bcfe459ec8)
+
+As you can see, it lists every player that recieved a rank of 1, meaning they had the most actual MVP shares that season, the year they won it in, their predicted rank, and the difference between their actual rank and the rank the algorithm predicted for them. 
+
+Overall, this algorithm was able to predict the past 16/21 MVP correctly, 
