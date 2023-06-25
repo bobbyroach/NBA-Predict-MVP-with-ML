@@ -18,7 +18,10 @@ In this step, the machine learning library, Scikit-Learn, is used to predict the
 1) First, I made sure there are no null or extraneous values in the data frame
 2) Created a list of predictors. These predictors are the stats the machine learning algorithm will train on and make predictions based on, and they should all be names of columns in the main data frame with all the statistics
 3) Using existing stats in the data frame, I created new stats, such as net rating, quality of impact, level of impact, and win contribution, which I then added to the list of predictors. Here is how I calculated those stats: 
-          - A
+          - NR: Offensive Rating (ORtg) - Defensive Rating (DRtg)
+          - QOI: (Value over replacement player (VORP) + Win share (WS)) * 0.4 + Net Rating (NR) * 0.2
+          - LOI: Team Wins * (Games played / 82) * (Minutes played / 48) * (Usage rate / 100)
+          - WC: Level of impact (LOI) * Quality of impact (QOI)
 
  
 ![Screenshot (48)](https://github.com/bobbyroach/NBA-Predict-MVP-with-ML/assets/110302904/fa253f8a-fb05-404c-ab12-c2bcfe459ec8)
